@@ -105,7 +105,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </main>
 
     <footer>
-        <p>&copy;  2023 Virtual Study Room. All rights reserved. <?php echo date("Y-m-d H:i:s"); ?></p>
+        <p>&copy; <?php echo date("Y"); ?> Virtual Study Room. All rights reserved. <?php echo date("Y-m-d H:i:s"); ?></p>
     </footer>
 </body>
+
 </html>
