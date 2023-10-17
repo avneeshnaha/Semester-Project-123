@@ -101,6 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p>Join our virtual study room today and unlock a world of knowledge!</p>
             <a href="#" class="cta-button">Get Started</a>
         </div>
+    
     </main>
 
     <footer>
