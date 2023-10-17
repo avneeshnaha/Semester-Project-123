@@ -5,20 +5,22 @@ body, h1, h2, p, ul, li {
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to bottom, #0074d9, #0056b3); /* Blue gradient background */
-    color: #fff;
+    background: #f8f6f6; /* Light background color for readability */
+    color: #333; /* Dark text color for good contrast */
 }
 
 header {
-    background: #333;
+    background: #ff6b6b; /* Soft pink header background */
+    color: #fff;
     text-align: center;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slightly larger and smoother shadow */
 }
 
 nav {
-    background: #444;
+    background: #ff9494; /* Slightly lighter pink for navigation bar */
     text-align: center;
+    padding: 10px 0;
 }
 
 nav ul {
@@ -28,7 +30,7 @@ nav ul {
 
 nav li {
     display: inline;
-    margin-right: 15px;
+    margin-right: 20px; /* Increased margin for better spacing */
 }
 
 nav a {
@@ -39,24 +41,23 @@ nav a {
 }
 
 nav a:hover {
-    color: #0074d9;
-}
+    color: #ff6b6b; /* Change color on hover for links */
 
 main {
     padding: 20px;
 }
 
 section {
-    background: #fff;
+    background: #fff; /* White background for content */
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0; /* Subtle border for separation */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Larger and smoother shadow */
 }
 
 h2 {
-    color: #333;
+    color: #ff6b6b; /* Pink title color */
     margin-bottom: 15px;
 }
 
@@ -66,26 +67,26 @@ ul {
 }
 
 footer {
-    background: #444;
+    background: #ff9494; /* Slightly lighter pink footer background */
     color: #fff;
     text-align: center;
     padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slightly larger and smoother shadow */
 }
 
 button {
-    padding: 10px 20px;
-    background: linear-gradient(to bottom, #0074d9, #0056b3); /* Blue gradient background */
+    padding: 12px 24px; /* Slightly larger padding for a comfortable button size */
+    background: #ff6b6b; /* Soft pink button color */
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px; /* Rounder corners for a trendy button shape */
     cursor: pointer;
     transition: background 0.3s;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px; /* Increased margin for spacing */
     font-weight: bold;
 }
 
 button:hover {
-    background: linear-gradient(to bottom, #0056b3, #003f80); /* Blue gradient background on hover */
+    background: #ff4d4d; /* Slightly darker pink on hover for the button */
 }
