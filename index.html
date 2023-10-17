@@ -1,5 +1,24 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Login Form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form action="login.php" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+    
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+    </body>
 <head>
     <meta charset="UTF-8">
     <title>Virtual Study Room</title>
@@ -28,17 +47,17 @@
         </section>
 
         <section>
-            <h2>Our Services</h2>
+            <h2>Chat Rooms</h2>
             <ul>
-                <li>Web Design</li>
-                <li>Graphic Design</li>
-                <li>Digital Marketing</li>
+                <li>Daily Planner</li>
+                <li>My Study Goals</li>
+                <li>My Schedule</li>
             </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Simple Website. All rights reserved.</p>
+        <p>&copy; 2023 Virtual Study Room. All rights reserved.</p>
     </footer>
 </body>
 </html>
