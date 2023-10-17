@@ -3,6 +3,7 @@ body, h1, h2, p, ul, li {
     padding: 0;
 }
 
+
 body {
     font-family: 'Arial', sans-serif;
     background: #f8f6f6; /* Light background color for readability */
@@ -49,12 +50,13 @@ main {
 
 section {
     background: #fff; /* White background for content */
-    margin-bottom: 20px;
-    padding: 20px;
+    margin-bottom: 40px;
+    padding: 40px;
     border: 1px solid #e0e0e0; /* Subtle border for separation */
     border-radius: 10px; /* Rounded corners for a softer look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Larger and smoother shadow */
 }
+
 
 h2 {
     color: #ff6b6b; /* Pink title color */
