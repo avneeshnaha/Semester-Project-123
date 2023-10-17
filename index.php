@@ -65,6 +65,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <li><a href="#">My Study Goals</a></li>
             <li><a href="#">Virtual Study Room</a></li>
             <li><a href="#">My Schedule</a></li>
+            li><a href="#">My Chats</a></li>
+            <li><a href="#">Find Friends</a></li>
         </ul>
     </nav>
 
