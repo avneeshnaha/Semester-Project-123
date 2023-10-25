@@ -1,0 +1,120 @@
+1. Ask ChatGPT to suggest ways to improve a particular page
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="login.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Log In</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Virtual Study Room</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Add header content -->
+    </header>
+    <nav>
+        <!-- Add navigation menu -->
+    </nav>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Our virtual study room, is a digital environment designed to facilitate remote and collaborative learning. It provides a platform for students and learners to come together virtually, access resources, study materials, and work on assignments or projects collectively. rt services, such as online tutoring, academic advising, and technical assistance.</p>
+        </section>
+        <section>
+            <h2>My Courses</h2>
+            <ul>
+                <!-- Add course links -->
+            </ul>
+        </section>
+        <section>
+            <h2>Find Friends</h2>
+            <p>Looking for study partners or friends with similar interests? Use our "Find Friends" feature to connect with fellow students and expand your network. You can search for users based on their subjects, interests, or study goals. Collaborate and make your virtual study experience even more rewarding.</p>
+            <a href="#" class="cta-button">Find Friends</a>
+        </section>
+    </main>
+    <footer>
+        <div class="cta">
+            <h3>Ready to boost your studies?</h3>
+            <p>Join our virtual study room today and unlock a world of knowledge!</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+        <p>&copy; 2023 Virtual Study Room</p>
+    </footer>
+</body>
+</html>
+
+->Remove Redundant Head and Body Tags
+->Use a Consistent Code Structure
+->Add Meaningful Content
+->Link Navigation
+->Optimize the Footer
+
+
+2. Ask ChatGPT to suggest a feature that might be added to your application
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css" id="page-styles">
+    <script src="darkmode.js"></script>
+</head>
+<body>
+    <!-- Your page content goes here -->
+
+    <button id="dark-mode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+</body>
+</html>
+
+-> Add dark mode button
+
+3. Provide an outline of your application structure and ask ChatGPT to suggest an improvement
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="login.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Log In</button>
+        </form>
+    </div>
+</body>
+</html>
+
+-> Create a complete new login page
+
+self evaluation score: 10
+
