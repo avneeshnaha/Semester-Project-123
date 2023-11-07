@@ -12,9 +12,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     foreach ($users as $user) {
         if ($user['username'] === $username && $user['password'] === $password) {
-            // Successful login, set a session variable and redirect to the dashboard
+            // Successful login, set a session variable and redirect to the index
             $_SESSION['username'] = $username;
-            header("Location: dashboard.php");
+            header("Location: index.php");
             exit();
         }
     }
