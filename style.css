@@ -17,6 +17,14 @@ header {
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slightly larger and smoother shadow */
 }
+.about-section {
+    background-image: url('images/tran-mau-tri-tam-tZnbakTUcTI-unsplash (1).jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Set text color to white or another readable color */
+    padding: 20px;
+}
+
 
 nav {
     background: #ff9494; /* Slightly lighter pink for navigation bar */
