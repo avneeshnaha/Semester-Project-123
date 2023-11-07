@@ -25,6 +25,14 @@ header {
     padding: 20px;
 }
 
+.courses-section {
+    background-image: 'images\altumcode-dC6Pb2JdAqs-unsplash.jpg'; /* Replace 'your-image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Set text color to white or another readable color */
+    padding: 20px;
+}
+
 
 nav {
     background: #ff9494; /* Slightly lighter pink for navigation bar */
