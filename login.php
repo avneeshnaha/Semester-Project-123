@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($user['username'] === $username && $user['password'] === $password) {
             // Successful login, set a session variable and redirect to the index
             $_SESSION['username'] = $username;
-            header("Location: index.php");
+            header("Location: dashboard.php");
             exit();
         }
     }
