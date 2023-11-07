@@ -1,23 +1,62 @@
-/* Style the background section */
+
+
+
 .background-section {
-    background: pink;
+    font-family: 'Ubuntu', sans-serif;
+    background: #ff9494
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
+/* Apply Ubuntu font to the entire document */
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
 
-/* Center the content within the section */
+/* Center the content and make images fill the page */
 .center-content {
-    background: rgba(255, 192, 203, 0.8); /* Pink background with some opacity */
+    background: rgba(255, 221, 221, 0.8); /* Pink background with some opacity */
     padding: 20px;
     border-radius: 5px;
     max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the content horizontally */
+    text-align: center; /* Center-align the text content */
+}
+
+.background-section {
+    background: rgba(255, 221, 221, 0.8);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover; /* Make the background image cover the entire section */
+    background-position: center; /* Center-align the background image */
+}
+
+img {
+    width: 100%; /* Make the images fill the page width */
+    height: auto;
+}
+
+/* Rest of your CSS styles */
+/* ... */
+
+
+
+
+.center-content {
+    background: rgba(255, 221, 221, 0.8); 
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 800px; 
 }
 
 
 body, h1, h2, p, ul, li {
+    
     margin: 0;
     padding: 0;
 }
@@ -25,36 +64,35 @@ body, h1, h2, p, ul, li {
 
 body {
     font-family: 'Arial', sans-serif;
-    background: #f8f6f6; /* Light background color for readability */
-    color: #333; /* Dark text color for good contrast */
+    background: rgba(255, 221, 221, 0.8);;
+    color: #333;
 }
 
-header {
-    background: #ff6b6b; /* Soft pink header background */
+header { 
     color: #fff;
     text-align: center;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slightly larger and smoother shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .about-section {
     background-image: url('images/tran-mau-tri-tam-tZnbakTUcTI-unsplash (1).jpg');
     background-size: cover;
     background-position: center;
-    color: #fff; /* Set text color to white or another readable color */
+    color: #fff; 
     padding: 20px;
 }
 
 .courses-section {
-    background-image: 'images\altumcode-dC6Pb2JdAqs-unsplash.jpg'; /* Replace 'your-image.jpg' with your image path */
+    background-image: 'images\altumcode-dC6Pb2JdAqs-unsplash.jpg'; 
     background-size: cover;
     background-position: center;
-    color: #fff; /* Set text color to white or another readable color */
+    color: #fff; 
     padding: 20px;
 }
 
 
 nav {
-    background: #ff9494; /* Slightly lighter pink for navigation bar */
+    background: #ff9494;
     text-align: center;
     padding: 10px 0;
 }
@@ -66,7 +104,7 @@ nav ul {
 
 nav li {
     display: inline;
-    margin-right: 20px; /* Increased margin for better spacing */
+    margin-right: 20px; 
 }
 
 nav a {
@@ -77,24 +115,24 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff6b6b; /* Change color on hover for links */
+    color: #ff6b6b; 
 
 main {
     padding: 20px;
 }
 
 section {
-    background: #fff; /* White background for content */
+    background: #fff; 
     margin-bottom: 40px;
     padding: 40px;
-    border: 1px solid #e0e0e0; /* Subtle border for separation */
-    border-radius: 10px; /* Rounded corners for a softer look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Larger and smoother shadow */
+    border: 1px solid #e0e0e0; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 
 h2 {
-    color: #ff6b6b; /* Pink title color */
+    color: #ff6b6b; 
     margin-bottom: 15px;
 }
 
@@ -104,40 +142,39 @@ ul {
 }
 
 footer {
-    background: #ff9494; /* Slightly lighter pink footer background */
+    background: #ff9494;
     color: #fff;
     text-align: center;
     padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slightly larger and smoother shadow */
-}
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 
 button {
-    padding: 12px 24px; /* Slightly larger padding for a comfortable button size */
-    background: #ff6b6b; /* Soft pink button color */
+    padding: 12px 24px;
+    background: #ff6b6b;
     color: #fff;
     border: none;
-    border-radius: 25px; /* Rounder corners for a trendy button shape */
+    border-radius: 25px;
     cursor: pointer;
     transition: background 0.3s;
     display: inline-block;
-    margin-top: 20px; /* Increased margin for spacing */
+    margin-top: 20px; 
     font-weight: bold;
 }
 
 button:hover {
-    background: #ff4d4d; /* Slightly darker pink on hover for the button */
+    background: #ff4d4d;
 }
 
 footer {
-    background: #ff9494; /* Slightly lighter pink footer background */
+    background: #ff9494;
     color: #fff;
     text-align: center;
     padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slightly larger and smoother shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .cta {
-    background: #ff6b6b; /* Soft pink call to action background */
+    background: #ff6b6b; 
     padding: 20px;
     border-radius: 10px;
 }
