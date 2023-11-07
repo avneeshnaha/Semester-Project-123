@@ -1,3 +1,22 @@
+/* Style the background section */
+.background-section {
+    background: pink;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Center the content within the section */
+.center-content {
+    background: rgba(255, 192, 203, 0.8); /* Pink background with some opacity */
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 800px; /* Adjust as needed */
+}
+
+
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
@@ -108,6 +127,7 @@ button {
 button:hover {
     background: #ff4d4d; /* Slightly darker pink on hover for the button */
 }
+
 footer {
     background: #ff9494; /* Slightly lighter pink footer background */
     color: #fff;
