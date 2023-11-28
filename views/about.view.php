@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>About Us</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
 
-        main {
-            text-align: center;
-        }
-
-        section {
-            display: inline-block;
-            text-align: left;
-            margin: 20px;
-            max-width: 800px;
-        }
-
-        footer {
-            margin-top: 20px;
-        }
-
-        header h1 {
-            color: black; /* Set the title color to black */
-        }
-    </style>
-</head>
 <body>
     <header>
         <h1>About Us</h1>

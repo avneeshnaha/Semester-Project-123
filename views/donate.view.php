@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Donate</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-    </style>
-</head>
+<?php include'partials\header.php'; ?>
+
 <body>
     <?php
     // Start a PHP session (if not already started)

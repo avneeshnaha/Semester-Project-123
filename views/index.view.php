@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Login Form</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <?php 
-        
-        include('index.php');
-        ?>
-        
-    </head>
+<?php include'partials\header.php'; ?>
+
     
     <body>
         <div class="login-container">
@@ -25,11 +15,7 @@
             </form>
         </div>
     </body>
-<head>
-    <meta charset="UTF-8">
-    <title>Virtual Study Room</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+
 
     
 <body>
@@ -40,14 +26,14 @@
     <nav>
         <ul>
             <li><a href="#">My Profile</a></li>
-            <li><a href="login.html">Login</a></li>
+            <li><a href="login.php">Login</a></li>
             <li><a href="#">My Study Goals</a></li>
             <li><a href="#">Virtual Study Room</a></li>
             <li><a href="#">My Schedule</a></li>
             <li><a href="#">My Chats</a></li>
             <li><a href="#">Find Friends</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="donate.html">Donate</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="donate.php">Donate</a></li>
         </ul>
     </nav>
 
@@ -91,6 +77,7 @@
                 <a href="#" class="cta-button">Get Started</a>
             </div>
             <p>&copy; 2023 Virtual Study Room</p>
+        </div>
         </footer>
     </body>
 </html>

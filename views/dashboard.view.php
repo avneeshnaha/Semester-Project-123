@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Dashboard</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+<?php include'partials\header.php'; ?>
+
 <body>
     <header>
         <h1>Welcome to Your Dashboard, <?php echo $_SESSION['username']; ?></h1>

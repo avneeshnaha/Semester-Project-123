@@ -1,0 +1,112 @@
+Name: Avneesh Naha
+Student no: n0203962
+Date: 2023-11-08
+Subject: DGL-123 Intro to PHP
+Topic: Semester Project Improvements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Improvements:
+-	Improve security protocols and validation of user input. The automated backdrop picture switching was a nice feature.
+-	Setting password validation, such as requiring seven characters or more, would be beneficial.
+-	Making it clearer to users how to utilise this website should be an improvement.
+-	To inform users of what they're logging into, provide a logo or programme name on the home page and log-in page.
+-	Font size is inconsistent. 
+-	Texts and the banner can be enhanced for a more professional look.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Plan:
+
+Re-watch the Laracast videos to get a further understanding on how to fix the PHP code. Also, it would be beneficial for me to take notes from the DGL-103 class on HTML and CSS and implement some more refined design techniques onto my project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

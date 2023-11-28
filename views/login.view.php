@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Login Form</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+<?php include'partials\header.php'; ?>
+
 <body>
     <div class="center-content">
         <div class="login-container">
