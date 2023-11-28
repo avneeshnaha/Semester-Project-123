@@ -1,15 +1,3 @@
-
-
-
-.background-section {
-    font-family: 'Ubuntu', sans-serif;
-    background: #ff9494
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
 /* Apply Ubuntu font to the entire document */
 * {
     font-family: 'Ubuntu', sans-serif;
@@ -17,7 +5,7 @@
 
 /* Center the content and make images fill the page */
 .center-content {
-    background: rgba(255, 221, 221, 0.8); /* Pink background with some opacity */
+    background: rgba(173, 216, 230, 0.8); /* Pastel blue background with some opacity */
     padding: 20px;
     border-radius: 5px;
     max-width: 800px; /* Adjust as needed */
@@ -26,7 +14,7 @@
 }
 
 .background-section {
-    background: rgba(255, 221, 221, 0.8);
+    background: rgba(173, 216, 230, 0.8); /* Pastel blue background with some opacity */
     text-align: center;
     display: flex;
     justify-content: center;
@@ -41,66 +29,37 @@ img {
     height: auto;
 }
 
-/* Rest of your CSS styles */
-/* ... */
-
-.center-content {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-
-
-.center-content {
-    background: rgba(255, 221, 221, 0.8); 
-    padding: 20px;
-    border-radius: 5px;
-    max-width: 800px; 
-}
-
-
-body, h1, h2, p, ul, li {
-    
-    margin: 0;
-    padding: 0;
-}
-
-
 body {
     font-family: 'Arial', sans-serif;
-    background: rgba(255, 221, 221, 0.8);;
+    background: rgba(173, 216, 230, 0.8); /* Pastel blue background with some opacity */
     color: #333;
 }
 
-header { 
+header {
     color: #fff;
     text-align: center;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .about-section {
     background-image: url('images/tran-mau-tri-tam-tZnbakTUcTI-unsplash (1).jpg');
     background-size: cover;
     background-position: center;
-    color: #fff; 
+    color: #fff;
     padding: 20px;
 }
 
 .courses-section {
-    background-image: 'images\altumcode-dC6Pb2JdAqs-unsplash.jpg'; 
+    background-image: url('images/altumcode-dC6Pb2JdAqs-unsplash.jpg');
     background-size: cover;
     background-position: center;
-    color: #fff; 
+    color: #fff;
     padding: 20px;
 }
 
-
 nav {
-    background: #ff9494;
+    background: #87CEEB; /* Sky blue color for the navigation background */
     text-align: center;
     padding: 10px 0;
 }
@@ -112,7 +71,7 @@ nav ul {
 
 nav li {
     display: inline;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 nav a {
@@ -123,24 +82,24 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff6b6b; 
+    color: #4682B4; /* Darker blue on hover for navigation links */
+}
 
 main {
     padding: 20px;
 }
 
 section {
-    background: #fff; 
+    background: #fff;
     margin-bottom: 40px;
     padding: 40px;
-    border: 1px solid #e0e0e0; 
+    border: 1px solid #e0e0e0;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 h2 {
-    color: #ff6b6b; 
+    color: #4682B4; /* Darker blue color for h2 headings */
     margin-bottom: 15px;
 }
 
@@ -150,78 +109,32 @@ ul {
 }
 
 footer {
-    background: #ff9494;
+    background: #87CEEB; /* Sky blue color for the footer background */
     color: #fff;
     text-align: center;
     padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
 button {
     padding: 12px 24px;
-    background: #ff6b6b;
+    background: #4682B4; /* Darker blue button background */
     color: #fff;
     border: none;
     border-radius: 25px;
     cursor: pointer;
     transition: background 0.3s;
     display: inline-block;
-    margin-top: 20px; 
+    margin-top: 20px;
     font-weight: bold;
 }
 
 button:hover {
-    background: #ff4d4d;
-}
-
-footer {
-    background: #ff9494;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background: #4169E1; /* Slightly darker blue on hover for the button */
 }
 
 .cta {
-    background: #ff6b6b; 
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.cta h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.cta p {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.cta-button {
-    padding: 10px 20px;
-    background: #ff6b6b;
-    color: #fff;
-    border: none;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s;
-    display: inline-block;
-}
-
-.cta-button:hover {
-    background: #ff4d4d;
-}
-footer {
-    background: #ff9494; /* Slightly lighter pink footer background */
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slightly larger and smoother shadow */
-}
-
-.cta {
-    background: #ff6b6b; /* Soft pink call to action background */
+    background: #4682B4; /* Darker blue call to action background */
     padding: 20px;
     border-radius: 10px;
     text-align: center; /* Center-align the content within the call to action section */
@@ -239,7 +152,7 @@ footer {
 
 .cta-button {
     padding: 12px 24px; /* Slightly larger padding for a comfortable button size */
-    background: #ff6b6b; /* Pink button background */
+    background: #4682B4; /* Darker blue button background */
     color: #fff;
     border: none;
     border-radius: 25px;
@@ -250,65 +163,5 @@ footer {
 }
 
 .cta-button:hover {
-    background: #ff4d4d; /* Slightly darker pink on hover for the button */
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Apply styles to the body and page container */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.login-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    max-width: 400px;
-}
-
-h2 {
-    margin-bottom: 20px;
-    color: #333;
-}
-
-/* Style the login form */
-label {
-    display: block;
-    text-align: left;
-    margin-bottom: 8px;
-    color: #333;
-}
-
-input[type="text"],
-input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    width: 100%;
-}
-
-button:hover {
-    background-color: #0056b3;
+    background: #4169E1; /* Slightly darker blue on hover for the button */
 }
