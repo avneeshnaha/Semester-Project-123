@@ -4,33 +4,23 @@
     <meta charset="UTF-8">
     <title>About Us</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
+    <header>
+        <h1>Welcome to the virtual study room</h1>
+    </header>
 
-        main {
-            text-align: center;
-        }
-
-        section {
-            display: inline-block;
-            text-align: left;
-            margin: 20px;
-            max-width: 800px;
-        }
-
-        footer {
-            margin-top: 20px;
-        }
-
-        header h1 {
-            color: black; /* Set the title color to black */
-        }
-    </style>
+    <nav>
+        <ul>
+            <li><a href="#">My Profile</a></li>
+            <li><a href="login.php">Login</a></li>x
+            <li><a href="#">My Study Goals</a></li>
+            <li><a href="#">Virtual Study Room</a></li>
+            <li><a href="#">My Schedule</a></li>
+            <li><a href="#">My Chats</a></li>
+            <li><a href="#">Find Friends</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="donate.php">Donate</a></li>
+        </ul>
+    </nav>
 </head>
 <body>
     <header>
@@ -56,7 +46,7 @@
         <section>
             <h2>Support Us</h2>
             <p>If you find our platform valuable and would like to support our mission, please consider making a donation. Your contributions help us maintain and improve our services to benefit more students and learners.</p>
-            <a href="donate.html" class="cta-button">Donate</a>
+            <a href="donate.php" class="cta-button">Donate</a>
         </section>
     </main>
     <footer>
